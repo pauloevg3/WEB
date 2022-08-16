@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(212, 212, 221, 0.301);            
+        }
+
+        .container {
+            width: 600px;
+            margin: auto;
+            margin-top: 200px;
+            padding: 30px;
+            background-color: rgb(126, 126, 126);
+        }
+        .header {
+            padding: 20px;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: rgb(51, 92, 78);
+        }
+    </style>
+
 </head>
 <body>
-    teste2
+    <div class="container">
+        <div class="header">
+            Título Principal
+        </div>        
+        <div class="flex-container">
+            <div>
+                Coluna 1
+                <div>
+                    Primeiro                
+                </div>
+                <div>
+                    Segundo
+                </div>
+            </div>
+            <div>
+                Coluna 2
+            </div>
+        </div>
+    </div>
 </body>
 </html>
